@@ -64,7 +64,7 @@ STEP 8: Use heatmap method of representation to show relationships between two v
  <img width="655" height="542" alt="Screenshot 2026-08-02 191310" src="https://github.com/user-attachments/assets/a754ba24-dfc4-4c66-a555-92517fcf571a" />
        
         sns.scatterplot(x=df["Age"],y=df["Fare"])
- <img width="1193" height="582" alt="Screenshot 2026-08-02 191236" src="https://github.com/user-attachments/assets/1a0e0201-f657-4ed0-8cd2-532d1ee62752" />
+
        
         sns.barplot(x=df["Survived"],y=df["Fare"])
         
