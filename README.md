@@ -64,13 +64,19 @@ STEP 8: Use heatmap method of representation to show relationships between two v
  <img width="655" height="542" alt="Screenshot 2026-08-02 191310" src="https://github.com/user-attachments/assets/a754ba24-dfc4-4c66-a555-92517fcf571a" />
        
         sns.scatterplot(x=df["Age"],y=df["Fare"])
-
-       
+<img width="652" height="518" alt="Screenshot 2026-08-02 191302" src="https://github.com/user-attachments/assets/d4ede541-53ee-4055-8353-4c32d4f4b3dc" />
+      
         sns.barplot(x=df["Survived"],y=df["Fare"])
+<img width="647" height="521" alt="Screenshot 2026-08-02 191253" src="https://github.com/user-attachments/assets/55e85fa9-dfaf-401b-b095-eb05d426173a" />
         
         sns.boxplot(x="Pclass",y="Age",hue="Gender",data=df)
+<img width="652" height="512" alt="Screenshot 2026-08-02 191245" src="https://github.com/user-attachments/assets/678c80b2-8631-4a0f-aee6-aaa9fe8149df" />
+        
         sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
+ <img width="1193" height="582" alt="Screenshot 2026-08-02 191236" src="https://github.com/user-attachments/assets/2a3091f0-21ae-4db0-9a71-461f6117a462" />
+       
         sns.heatmap(df.corr(numeric_only=True),annot=True)
+<img width="836" height="640" alt="Screenshot 2026-08-02 191040" src="https://github.com/user-attachments/assets/cc9a2736-17a8-468d-a7ff-11d72c843a8d" />
 
 
         
